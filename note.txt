@@ -1,0 +1,31 @@
+mounted
+In Vue.js, the mounted lifecycle hook is an important part of the component lifecycle.
+It is called after the component has been created and inserted into the DOM.
+This hook is useful for performing actions that require the component to be fully rendered, such as fetching data, manipulating the DOM, or initializing third-party libraries.
+
+LocalStorage
+localStorage is a web storage feature that allows you to store key-value pairs in a web browser with no expiration date.
+The data remains even after the browser is closed and reopened.
+
+Navbar Color Classes
+You can replace the bg-light class in the navbar with any of the following classes to change the background color:
+
+Light Colors:
+
+bg-light (light gray)
+bg-white (white)
+Primary Colors:
+
+bg-primary (blue)
+bg-secondary (gray)
+bg-success (green)
+bg-danger (red)
+bg-warning (yellow)
+bg-info (cyan)
+bg-dark (dark gray)
+
+'$' is not defined no-undef
+Install and import jQuery properly.
+Configure ESLint to recognize $ as a global variable.
+Ensure your build tool is configured to expose jQuery correctly.
+Use $ in the appropriate lifecycle hooks.
